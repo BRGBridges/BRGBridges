@@ -9039,3 +9039,36 @@ nav .categories-wrapper .categories-container .categories > li {
     padding-top: 56px;
   }
 }
+
+// Custom Stuff
+
+* Responsive Google Calendar
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 90%;
+  height: 70%;
+}
+
+* Responsive Google Maps
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
